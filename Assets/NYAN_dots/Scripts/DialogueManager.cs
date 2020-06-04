@@ -2,6 +2,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class DialogueManager : MonoBehaviour
 {
     public GameObject dBox;
@@ -13,17 +14,18 @@ public class DialogueManager : MonoBehaviour
 
     void Start()
     {
-        
+        dBox.SetActive(false);
+        dialogActive = false;
     }
 
    
     void Update()
     {
+        
         if (dialogActive && Input.GetKeyDown(KeyCode.L)) 
         {
-
-            // dBox.SetActive(false);
-            //dialogActive = false;
+            //Debug.Log("Ta da!");
+            dText.text = dialogueLines[currentLine];
             currentLine++;
         }
         if (currentLine >= dialogueLines.Length)
@@ -33,14 +35,14 @@ public class DialogueManager : MonoBehaviour
 
             currentLine = 0;
         }
-        dText.text = dialogueLines[currentLine];
+        
     }
 
     public void ShowBox(string dialogue)
     {
         dialogActive = true;
         dBox.SetActive(true);
-        dText.text = dialogue;
+        dText.text = dialogue;       
     }
 
     public void ShowDialogue()
