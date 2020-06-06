@@ -1267,6 +1267,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 1362496847768572, guid: 96d3021b422f5124887bac669eaf6bab, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4450403847575800, guid: 96d3021b422f5124887bac669eaf6bab, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.097074
@@ -1334,7 +1338,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2111149717
 MonoBehaviour:
   m_ObjectHideFlags: 0

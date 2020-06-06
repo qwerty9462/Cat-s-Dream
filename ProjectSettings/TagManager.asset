@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Exit
+  - Bean
+  - Enemy
+  - SavePoint
   layers:
   - Default
   - TransparentFX
@@ -13,7 +17,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Test Layer
   - 
   - 
   - 
@@ -38,12 +42,27 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Player
-    uniqueID: 3088377481
-    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: New Layer
+  - name: BackGround
     uniqueID: 3255255081
+    locked: 0
+  - name: Tilemap(2)
+    uniqueID: 2376399561
+    locked: 0
+  - name: Tilemao(1)
+    uniqueID: 2205445799
+    locked: 0
+  - name: TileMap
+    uniqueID: 2103791547
+    locked: 0
+  - name: Npc
+    uniqueID: 3263806665
+    locked: 0
+  - name: Player
+    uniqueID: 3088377481
+    locked: 0
+  - name: New Layer
+    uniqueID: 3895102347
     locked: 0

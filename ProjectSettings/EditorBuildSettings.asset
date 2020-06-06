@@ -5,20 +5,26 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 4fdb5cbbe721ae3459244357a258c954
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/LevelMenu.unity
+    guid: ca5593073179ff5448cf610b49250ef9
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
     guid: 1cc829817a6049244a359d1cd86dc87c
   - enabled: 1
-    path: Assets/Scenes/Scene1.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Shop.unity
+    guid: 026cf789e820a8743b075ed320378826
   - enabled: 1
-    path: Assets/Scenes/level2.unity
+    path: Assets/Scenes/Level1.unity
+    guid: 1d3060c030396064f9df59c68f37782d
+  - enabled: 1
+    path: Assets/Scenes/Level4.unity
+    guid: 1f3fdf4f3bb7bd6438323075f648b35d
+  - enabled: 1
+    path: Assets/Scenes/Level5.unity
     guid: 901da131a1bf88b45b5271ac4b1a2e67
   - enabled: 1
     path: Assets/Scenes/HE.unity
@@ -27,6 +33,12 @@ EditorBuildSettings:
     path: Assets/Scenes/HE2.unity
     guid: dad07c23b2ec88147b0dce129a74d78e
   - enabled: 1
-    path: Assets/Scenes/Shop.unity
-    guid: 026cf789e820a8743b075ed320378826
+    path: Assets/Scenes/BE.unity
+    guid: 2e9efa33c4067434f8d8e43f92c49888
+  - enabled: 1
+    path: Assets/Scenes/BE1.unity
+    guid: 6048d496a93d18044bc8bfd5b9669d35
+  - enabled: 1
+    path: Assets/Scenes/BE2.unity
+    guid: 72cf483c4481de841a6d5df1fc7f8d3a
   m_configObjects: {}
